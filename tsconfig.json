@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "ts/*": [
+        "resources/ts/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
